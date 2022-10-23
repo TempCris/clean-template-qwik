@@ -11,9 +11,9 @@
 
 ---
 
-## Project Structure
+## Estructura del proyecto
 
-Inside of you project, you'll see the following directories and files:
+Dentro de su proyecto, verá los siguientes directorios y archivos:
 
 ```
 ├── public/
@@ -25,41 +25,41 @@ Inside of you project, you'll see the following directories and files:
         └── ...
 ```
 
-- `src/routes`: Provides the directory based routing, which can include a hierarchy of `layout.tsx` layout files, and `index.tsx` files as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
+- `src/routes`: Proporciona el enrutamiento basado en directorios, que puede incluir una jerarquía de `layout.tsx` archivos de diseño, y `index.tsx` archivos como la página. Además, `index.ts` los archivos son endpoints. Por favor vea el [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) para más información.
 
-- `src/components`: Recommended directory for components.
+- `src/components`: Directorio recomendado para componentes.
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+- `public`:Cualquier recurso estático, como imágenes, se puede colocar en el directorio público. Por favor vea el [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) para más información.
 
-## Add Integrations
+## Agregar integraciones
 
-Use the `npm run qwik add` command to add other integrations. Some examples of integrations include as a Cloudflare, Netlify or Vercel server, and the Static Site Generator (SSG).
+Utilizar el `npm run qwik add` comando para agregar otras integraciones.Algunos ejemplos de integraciones incluyen  Cloudflare, Netlify or Vercel server, y el generador de sitios estáticos (SSG).
 
 ```
 npm run qwik add
 ```
 
-## Development
+## Desarrollo
 
-Development mode uses [Vite's development server](https://vitejs.dev/). For Qwik during development, the `dev` command will also server-side render (SSR) the output. The client-side development modules loaded by the browser.
+Usos del modo de desarrollo [Vite's development server](https://vitejs.dev/). Para Qwik durante el desarrollo, `dev` el comando también se renderizará en el lado del servidor (SSR) la salida. Los módulos de desarrollo del lado del cliente cargados por el navegador.
 
 ```
 npm run dev
 ```
 
-> Note: during dev mode, Vite will request many JS files, which does not represent a Qwik production build.
+> Note: durante el modo de desarrollo, Vite solicitará muchos archivos JS, lo que no representa una compilación de producción de Qwik.
 
-## Preview
+## Avance
 
-The preview command will create a production build of the client modules, production build of `src/entry.preview.tsx`, and create a local server. The preview server is only for convenience to locally preview a production build, but it should not be used as a production server.
+El comando de vista previa creará una compilación de producción de los módulos del cliente, una compilación de producción de `src/entry.preview.tsx`, y creara un servidor local. El servidor de vista previa es solo por conveniencia para obtener una vista previa local de una compilación de producción, pero no debe usarse como servidor de producción..
 
 ```
 npm run preview
 ```
 
-## Production
+## Producción
 
-The production build should generate the client and server modules by running both client and server build commands. Additionally, the build command will use Typescript run a type check on the source.
+La compilación de producción debe generar los módulos de cliente y servidor ejecutando los comandos de compilación de cliente y servidor. Además, el comando de compilación usará Typescript para ejecutar una verificación de tipo en la fuente.
 
 ```
 npm run build
