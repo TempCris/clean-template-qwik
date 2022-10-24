@@ -2,7 +2,9 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 // ---CSS
 import styles from './header.css?inline';
-
+/**
+ * Compoente del Navbar
+ */
 export default component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   useStylesScoped$(styles);

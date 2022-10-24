@@ -5,7 +5,7 @@ export default component$(() => {
     // -----------------------CONSTS, HOOKS, STATES
     return(
     <div className="dummyComp">
-      --------------Hi im a Dummy Commponent-------------- 
+      --------------Hi i'm a Dummy Commponent-------------- 
       <br />
       trye me!!!
       <br />
