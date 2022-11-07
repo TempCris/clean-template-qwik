@@ -1,8 +1,8 @@
 // ---Dependencies
 import { component$, Slot } from '@builder.io/qwik';
 // ---Components
-import Header from '../GlobalProvider/header/header';
-import Footer from '../GlobalProvider/footer/footer';
+import { Header } from '../GlobalProvider/header/header';
+import { Footer } from '../GlobalProvider/footer/footer';
 
 /**
  * Layout Component: Aqui se hace un diseño de la estructura de las

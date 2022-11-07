@@ -5,7 +5,7 @@ import styles from './header.css?inline';
 /**
  * Compoente del Navbar
  */
-export default component$(() => {
+export const Header = component$(() => {
   // -----------------------CONSTS, HOOKS, STATES
   useStylesScoped$(styles);
   return (
